@@ -26,7 +26,7 @@
 6. **Clear All (CE) Button:** Clears both the input and result areas.
 7. **Decimal Point (.):** Adds a decimal point to the numeric input.
 
-## Mathematical Expression Evaluation
+## 🔣 Mathematical Expression Evaluation
 
 The app uses a custom algorithm to evaluate mathematical expressions. It employs a stack-based approach to handle operators and operands, supporting the order of operations and parentheses.
 
