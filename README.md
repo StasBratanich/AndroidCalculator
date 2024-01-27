@@ -1,6 +1,12 @@
-# Android Calculator
+<h1 align="center">Android Calculator</h1>
 
-This Android Calculator app provides basic arithmetic calculations and supports parentheses for complex expressions. The app is built using Android Studio and Java. It features a clean user interface with a text input area for numerical expressions, a result display, and buttons for numbers, operators, and special functions.
+***
+
+<p align="center">This Android Calculator app provides basic arithmetic calculations and supports parentheses for complex expressions</p>
+<p align="center">The app is built using Android Studio and Java</p>
+<p align="center">It features a clean user interface with a text input area for numerical expressions, a result display, and buttons for numbers, operators, and special functions</p>
+
+
 
 ## Features
 
@@ -48,8 +54,6 @@ To build and run the app locally, follow these steps:
 
 ## Acknowledgments
 
-This calculator app is developed by [Your Name].
-Thanks to [Any Acknowledgments if applicable].
 
 ## Contact
 
