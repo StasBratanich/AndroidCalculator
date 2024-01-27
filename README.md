@@ -16,7 +16,7 @@
 - **Clear all (CE) functionality:** Clears both the input and result areas.
 - **Decimal point support:** Users can input decimal numbers.
 
-## Usage
+## ℹ️ Usage
 
 1. **Numeric Input:** Tap on numeric buttons to input numbers. The input is displayed in the top area.
 2. **Operator Input:** Tap on operator buttons (+, -, X, /, %) to input operators. The input is visually separated by spaces.
@@ -30,7 +30,7 @@
 
 The app uses a custom algorithm to evaluate mathematical expressions. It employs a stack-based approach to handle operators and operands, supporting the order of operations and parentheses.
 
-## Screenshots
+## 📌 Screenshots
 
 ![1](https://github.com/StasBratanich/AndroidCalculator/assets/83605505/ff652c42-ac24-4697-8d77-ab119689226a)
 
