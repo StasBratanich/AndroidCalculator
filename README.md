@@ -7,8 +7,7 @@
 <p align="center">It features a clean user interface with a text input area for numerical expressions, a result display, and buttons for numbers, operators, and special functions</p>
 
 
-
-## Features
+## 🌟 Features
 
 - **Arithmetic operations:** Addition, subtraction, multiplication, division, and modulo.
 - **Support for parentheses:** Users can input complex mathematical expressions with parentheses.
@@ -54,9 +53,8 @@ To build and run the app locally, follow these steps:
 
 ## Acknowledgments
 
-
-## Contact
-
-For any inquiries or feedback, please contact [Your Email].
+✉️ [bstasb@gmail.com](url)  
+💿 https://github.com/StasBratanich  
+🖥️ https://www.linkedin.com/in/stas-bratanich-computer-science/
 
 Enjoy calculating with the Android Calculator app!
