@@ -2,9 +2,9 @@
 
 ***
 
-<p align="center">This Android Calculator app provides basic arithmetic calculations and supports parentheses for complex expressions</p>
-<p align="center">The app is built using Android Studio and Java</p>
-<p align="center">It features a clean user interface with a text input area for numerical expressions, a result display, and buttons for numbers, operators, and special functions</p>
+<p align="center">This Android Calculator app provides basic arithmetic calculations and supports parentheses for complex expressions.</p>
+<p align="center">The app is built using Android Studio and Java.</p>
+<p align="center">It features a clean user interface with a text input area for numerical expressions, a result display, and buttons for numbers, operators, and special functions.</p>
 
 
 ## 🌟 Features
