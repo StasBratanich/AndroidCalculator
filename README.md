@@ -27,11 +27,11 @@ The app uses a custom algorithm to evaluate mathematical expressions. It employs
 
 ## Screenshots
 
-![1](https://github.com/StasBratanich/AndroidCalculator/assets/83605505/ed8d431b-c400-4abb-84da-af45d008df22)
+![1](https://github.com/StasBratanich/AndroidCalculator/assets/83605505/ff652c42-ac24-4697-8d77-ab119689226a)
 
 After the "=" equals button is pressed :
 
-![2](https://github.com/StasBratanich/AndroidCalculator/assets/83605505/47dce75c-2cd4-4eb0-812b-4b3912010b12)
+![2](https://github.com/StasBratanich/AndroidCalculator/assets/83605505/dcdc7404-f129-416d-bcac-ad774f596616)
 
 ## Getting Started
 
