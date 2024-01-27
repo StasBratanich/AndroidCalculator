@@ -27,6 +27,9 @@ The app uses a custom algorithm to evaluate mathematical expressions. It employs
 
 ## Screenshots
 
+<img src="./1.png" alt="Screenshot 1" width="300"/>
+<img src="./2.png" alt="Screenshot 2" width="300"/>
+
 ![1](https://github.com/StasBratanich/AndroidCalculator/assets/83605505/53314a9d-730f-483a-bd65-bee45ce19486)
 
 After the "=" equals button is pressed :
