@@ -14,7 +14,6 @@ public class MainActivity extends AppCompatActivity {
 
     private TextView currentNumber;
     private TextView result;
-    private String operator = "";
     public boolean isEqualsClicked = false;
 
     @Override
@@ -40,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void operatorFunction(View view) {
         Button operatorButton = (Button) view;
-        operator = operatorButton.getText().toString();
+        String operator = operatorButton.getText().toString();
         String num1 = currentNumber.getText().toString();
 
         if (num1.isEmpty()) {
