@@ -43,7 +43,12 @@ public class MainActivity extends AppCompatActivity {
         operator = operatorButton.getText().toString();
         String num1 = currentNumber.getText().toString();
 
-        currentNumber.append(" " + operator + " ");
+        if (num1.isEmpty()) {
+            currentNumber.append(operator + " ");
+        } else {
+            currentNumber.append(" " + operator + " ");
+        }
+
     }
 
 
@@ -52,16 +57,13 @@ public class MainActivity extends AppCompatActivity {
 
         String equation = "";
 
-        if (!currentNumber.getText().toString().isEmpty())
-        {
+        if (!currentNumber.getText().toString().isEmpty()) {
             equation += currentNumber.getText().toString();
-        }
-        else {
+        } else {
             equation = currentNumber.getText().toString();
         }
 
-        if (!result.getText().toString().isEmpty())
-        {
+        if (!result.getText().toString().isEmpty()) {
             result.setText("");
         }
 
@@ -149,8 +151,14 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void processOperator(Stack<Double> numbers, Stack<Character> operators) {
+
         double num2 = numbers.pop();
         double num1 = numbers.pop();
+
+        if (operators.peek() == '|') {
+            operators.pop();
+        }
+
         char op = operators.pop();
         double result = 0;
 
@@ -168,7 +176,7 @@ public class MainActivity extends AppCompatActivity {
                 result = num1 % num2;
                 break;
             case '/':
-                if (num2 == 0) {
+                if (num2 == 0.0) {
                     throw new ArithmeticException("Division by zero");
                 }
                 result = num1 / num2;
@@ -179,9 +187,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void deleteFunction(View view) {
-        String currentText  = currentNumber.getText().toString();
+        String currentText = currentNumber.getText().toString();
 
-        if(!currentText.isEmpty()) {
+        if (!currentText.isEmpty()) {
             String newText = currentText.substring(0, currentText.length() - 1);
             currentNumber.setText(newText);
         }
@@ -192,8 +200,7 @@ public class MainActivity extends AppCompatActivity {
         result.setText("");
     }
 
-    public void dotFunction(View view)
-    {
+    public void dotFunction(View view) {
         currentNumber.append(".");
     }
 
